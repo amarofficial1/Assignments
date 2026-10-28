@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addbook</title>
+    <link rel="stylesheet" href="./style/addbook.css">
+</head>
+<body>
+<form action="./Viewbook.html">
+     <div class="nav">
+        <div>
+            <img src="./front page photos/logo.png" alt="logo">
+        </div>
+        <div>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Viewbook.html">ViewBook</a></li>
+                <li><a href="Addbook.html">AddBook</a></li>
+                <li><a href="Login.html">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">  
+    <div class="main">
+        <img src="./front page photos/logo.png" alt="logo">
+        <h1>AddBook</h1>
+    </div>
+    <div class="b1">
+        <h3>Bookname:</h3>
+        <input type="text" placeholder="enter the title of the book." required class="b2">
+         <h3>Authorname:</h3>
+        <input type="text" placeholder="enter the authorname" required class="b2">
+        <h3>Release date:</h3>
+        <input type="date" required class="b2">
+        <h3>Ratings:</h3>
+        <input type="number" required class="b2">
+        <h3>Coverpage:</h3>
+        <input type="file" required>
+        <div class="opt1">
+            <div><input type="submit" value="Addbook" class="addbook"></div>
+            <div><input type="reset" value="Reset" class="reset"></div>
+        </div>    
+    </div>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    background-color: #003366;
+    color:#FFFAFA;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+.nav img{
+    width: 80px;
+    height: 50px;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+.nav li{
+    padding: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: #FFFAFA;
+}
+.nav a:hover{
+    background-color: crimson;
+    border: 1px solid;
+    padding: 5px;
+}
+.main{
+    margin: auto;
+    text-align: center;
+}
+.main h1{
+    margin-top: 0px;
+    text-decoration: underline;
+    color: yellow;
+}
+.main img{
+    width: 300px;
+    height: 200px;
+
+}
+.body{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid;
+    padding: 0px 50px;
+    
+}
+.b1{
+    margin-top: 70px;
+}
+.b2{
+   width:100%;
+   height:20px;
+   box-sizing: border-box;
+}
+.opt1{
+    display: flex;
+    justify-content: center;
+    margin:50px 0px;
+    margin-bottom: 50px;
+}
+.addbook{
+    margin: 0px 20px;
+    background-color: red;
+    border: 3px solid white;
+    font-weight: bolder;
+    color: #FFFAFA;
+    width: 100px;
+    padding: 5px;
+}
+.reset{
+    margin: 0px 20px;
+    background-color: blue;
+    border: 3px solid white;
+    font-weight: bolder;
+    color: #FFFAFA;
+    width: 100px;
+    padding: 5px;
+}
+.opt1 input:hover{
+    opacity: 80%;
+}
