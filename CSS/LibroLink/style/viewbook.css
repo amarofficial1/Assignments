@@ -39,9 +39,9 @@ body{
     text-decoration: underline;
 }
 .cat1{
-    text-align: center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
+    text-align: center;
 }
 .cat1 a{
     margin:0px 50px;
@@ -55,7 +55,7 @@ body{
 .cat2{
     margin: auto;
     margin-top: 60px;
-    text-align:  center;
+    text-align: center;
 }
 .cat2 a{
     /* width: 80px;
