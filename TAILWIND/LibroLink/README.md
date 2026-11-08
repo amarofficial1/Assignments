@@ -1,4 +1,4 @@
-# A Basic library management website done in html.
+# A Basic library management website done in tailwind and html.
 # No of users:2
 # 1.Admin
 # Admin can add,remove,issue and view books
