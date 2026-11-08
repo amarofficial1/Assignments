@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addbook</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-sky-900 text-white">
+<form action="Viewbook.html">
+    <div class="bg-black flex justify-between items-center">
+            <img src="./front page photos/logo.png" alt="logo" class="w-20 h-14">
+        <div class="">
+            <ul class="list-none flex mx-2">
+               <li class="mx-4"><a href="Homepage.html" class="font-semibold hover:text-red-700">Home</a></li>
+                <li class="mx-4"><a href="Viewbook.html"class="font-semibold  hover:text-red-700">ViewBook</a></li>
+                <li class="mx-4"><a href="Addbook.html"class="font-semibold hover:text-red-700">AddBook</a></li>
+                <li class="mx-4"><a href="Issuebook.html"class="font-semibold  hover:text-red-700">IssueBook</a></li>
+                <li class="mx-4"><a href="Login.html" class="font-semibold hover:text-red-700">Logout</a></li>
+            </ul>
+        </div>
+    </div> 
+    <div class="w-170 mx-auto my-10 bg-black border-1 border-white px-20">
+        <img src="./front page photos/logo.png" alt="libra app logo" class="w-100 h-70 mx-auto">
+        <h1 class="text-center text-yellow-300 font-semibold underline underline-offset-9 text-4xl mb-10">AddBook</h1>
+        <h3 class="text-xl font-semibold">Book ID:</h3>
+        <input type="text" placeholder="enter the book id." required class="p-2 w-130 border-none bg-white text-gray-700 font-semibold my-3 rounded-md hover:opacity-80">
+        <h3 class="text-xl font-semibold">Book Name:</h3>
+        <input type="text" placeholder="enter the title of the book." required class="p-2 w-130 border-none bg-white text-gray-700 font-semibold my-3 rounded-md hover:opacity-80">
+        <h3 class="text-xl font-semibold">Author Name:</h3>
+        <input type="text" placeholder="enter the authorname" required class="p-2 w-130 border-none bg-white text-gray-700 font-semibold my-3 rounded-md hover:opacity-80">
+        <h3 class="text-xl font-semibold">Release Date:</h3>
+        <input type="date" required class="p-2 w-130 border-none bg-white text-gray-700 font-semibold my-3 rounded-md hover:opacity-80">
+        <h3 class="text-xl font-semibold">Ratings:</h3>
+        <input type="number" placeholder="enter the ratings. eg:4.0/5" class="p-2 w-130 border-none bg-white text-gray-700 font-semibold my-3 rounded-md hover:opacity-80">
+        <h3 class="text-xl font-semibold">Cover Page:</h3>
+        <input type="file" required class="p-2 w-130 border-none bg-white text-gray-700 font-semibold my-3 rounded-md hover:opacity-80">
+        <div class="flex  justify-start w-130 mx-auto my-3">
+            <div><input type="submit" value="Addbook" class="m-5 ml-0 px-7 py-2 bg-red-600 text-white  text-lg font-semibold border-white border-2 rounded-full hover:bg-red-800"></div>
+            <div><input type="reset" value="Reset" class="m-5 px-7 py-2 bg-blue-600 text-white  text-lg font-semibold  border-white border-2 rounded-full hover:bg-blue-800"></div>
+        </div>    
+    </div>
+    
+</form>
+</body>
+</html>
