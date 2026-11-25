@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drivers</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-cyan-100">
+    <div class="bg-black text-white flex justify-between items-center">
+        <img src="newlogo.png" alt="logo" class="w-25 h-15">
+        <div>
+            <ul class="list-none flex">
+               <li class="px-2"><a href="homepage.html" class="hover:text-red-600 font-medium">Home</a></li>
+                <li class="px-2"><a href="rides.html" class="hover:text-red-600  font-medium">Rides</a></li>
+                <li class="px-2"><a href="verification.html" class="hover:text-red-600  font-medium">Verification</a></li>
+                <li class="px-2"><a href="drivers.html" class="hover:text-red-600  font-medium">Drivers</a></li>
+                <li class="px-2"><a href="complaint.html" class="hover:text-red-600  font-medium">Complaints</a></li>
+                <li class="px-2"><a href="login.html" class="hover:text-red-600  font-medium">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- table -->
+    <div class="w-335 bg-white border-2 border-black mx-auto my-30 rounded-xl shadow-xl">
+        <h1 class="font-semibold text-3xl underline text-red-500 text-center my-10 italic">All Drivers</h1>
+        <div class="flex  w-160 m-auto my-10 text-white items-center">
+            <input type="text" placeholder="enter the Vehicle no/ Driver id" required
+                class="py-2 pl-5 w-130 border-1 border-red-500 bg-black placeholder:text-white/80 italic font-semibold rounded-md hover:opacity-80">
+            <input type="submit" value="Search"
+                class="bg-slate-700 ml-5 px-5 py-1 font-bold text-lg rounded-md border-orange-600 border-2  hover:bg-slate-800">
+               
+        </div>
+        <table class="border-2 border-green-600 text-center mx-auto mb-20">
+            <tr>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">Driver ID</h3>
+                </td>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">Name</h3>
+                </td>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">Email</h3>
+                </td>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">Phone No</h3>
+                </td>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">Vehicle No</h3>
+                </td>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">Vehicle Type</h3>
+                </td>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">Seating Capacity</h3>
+                </td>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">Model & Color</h3>
+                </td>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">License</h3>
+                </td>
+                <td class="border-2 border-green-600 p-3 text-pink-600">
+                    <h3 class="font-semibold italic text-lg">Action</h3>
+                </td>
+            </tr>
+            <tr>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">D1236C</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">Roy</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">roy12@gmail.com</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">+91 9697456728</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">KL 36D 8061
+                </td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">Car</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">3</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">Swift black</td>
+                <td class="border-2 border-green-600 p-3 text-base underline italic text-blue-600 hover:text-blue-800"><a href="Eqv_0202026.pdf">License</a></td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium"><a href=""><span class="text-red-500 hover:text-red-700">Revoke</span></a></td>
+
+            </tr>
+            <tr>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">D2346C</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">Elon</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">Elon256@gmail.com</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">+91 9895023948</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">KL 07E 6070
+                </td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">Bike</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">1</td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium">Pulsar blue</td>
+                <td class="border-2 border-green-600 p-3 text-base underline italic text-blue-600 hover:text-blue-800"><a href="Eqv_0202026.pdf">License</a></td>
+                <td class="border-2 border-green-600 p-3 text-base font-medium"><a href=""><span class="text-red-500 hover:text-red-700">Revoke</span></a></td>
+
+
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
