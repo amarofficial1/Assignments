@@ -10,7 +10,7 @@
 
 <body class="bg-cyan-100">
     <form action="confirmation.html">
-         <div class="bg-black text-white flex justify-between items-center">
+        <div class="bg-black text-white flex justify-between items-center">
             <img src="newlogo.png" alt="logo" class="w-25 h-15">
             <ul class="list-none flex">
                 <li class="px-2"><a href="../landingpage.html" class="hover:text-red-600 font-medium">Home</a></li>
@@ -24,18 +24,26 @@
             <div class="font-bold text-xl ">Vehicle No:</div>
             <input type="text" required placeholder="enter your vehicle registration no."
                 class="bg-white border-2 border-slate-200 w-full my-3 p-2 rounded-md shadow-sm placeholder:italic">
-<div class="font-bold text-xl ">Vehicle Type:</div>
+            <div class="font-bold text-xl ">Vehicle Type:</div>
             <input type="text" required placeholder="car/bike/scooter/rikshaw."
-                class="bg-white border-2 border-slate-200 w-full my-3 p-2 rounded-md shadow-sm placeholder:italic">           
-                 <div class="font-bold text-xl ">Seating Capacity:</div>
+                class="bg-white border-2 border-slate-200 w-full my-3 p-2 rounded-md shadow-sm placeholder:italic">
+            <div class="font-bold text-xl ">Seating Capacity:</div>
             <input type="text" required placeholder="enter the maximum seating capacity"
                 class="bg-white border-2 border-slate-200 w-full my-3 p-2 rounded-md shadow-sm placeholder:italic">
-                <div class="font-bold text-xl ">Model & Color:</div>
+            <div class="font-bold text-xl ">Model & Color:</div>
             <input type="text" required placeholder="enter your vehicle model & color."
                 class="bg-white border-2 border-slate-200 w-full my-3 p-2 rounded-md shadow-sm placeholder:italic">
+            <div class="font-bold text-xl ">Driving License:</div>
+            <input type="file" required
+                class="bg-white border-2 border-slate-200 w-full my-3 p-2 rounded-md shadow-sm">
+
+
+            <div class="my-5 flex justify-between items-center">
                 <input type="submit" value="Signup"
-                    class=" bg-purple-500 my-5 py-2 px-10 rounded-lg font-bold text-lg text-white hover:bg-purple-600">
-                </div>
+                    class=" bg-purple-500 py-2 px-10 rounded-lg font-bold text-lg text-white hover:bg-purple-600">
+                <a href="signup.html"
+                    class=" bg-red-500 py-2 px-6 rounded-lg font-bold text-lg text-white hover:bg-red-600">Cancel</a>
+            </div>
         </div>
     </form>
 </body>
